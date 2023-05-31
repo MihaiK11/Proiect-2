@@ -1,32 +1,58 @@
 .App {
-  /* Aliniază conținutul în centru */
-}
-
-/******Title*******/
-.title {
   background-color: #19A7CE;
   padding: 20px;
   color: white;
-  display: flex;
-  justify-content: center;
+  text-align: center; /* Aliniază conținutul în centru */
+}
+.title {
+  background-color: #19A7CE;
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
 
 .title h1 {
   font-size: 36px;
   transform: scale(2);
+  margin: 0;
+}
+.title .spacer {
+  height: 40px; /* Ajustează înălțimea spațiului goale */
+}
+.line {
+  border: none;
+  border-top: 2px solid black;
+  width: 66.6667%;
+  margin: 0 auto;
 }
 
-
-
-/******Serviciul*******/
-.paginaServiciu{
-  max-width: 1024px;
+.scroll-layout {
+  margin-bottom: 20px;
 }
-.slideShow{
+
+.scroll-layout h2 {
+  color: white;
+}
+
+.scroll-layout p {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.images-container {
+  justify-content: center;
+  align-items: center;
   display: flex;
+  justify-content: center; /* Aliniază imaginile în centru pe orizontală */
 }
-.slideShow img{
-  flex: 1;
-  max-width: 100%;
-  height: auto;
+.scroll-layout h2 {
+  font-size: 24px;
+}
+.scroll-layout p {
+  font-size: 24px;
+}
+.images-container img {
+  width: 300px; /* Ajustează dimensiunea imaginilor la standardele dorite */
+  height: 200px; /* Menține proporțiile originale ale imaginilor */
+  margin-right: 10px;
 }
