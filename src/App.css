@@ -1,38 +1,58 @@
 .App {
+  background-color: #19A7CE;
+  padding: 20px;
+  color: white;
+  text-align: center; /* Aliniază conținutul în centru */
+}
+.title {
+  background-color: #19A7CE;
+  color: white;
+  padding: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title h1 {
+  font-size: 36px;
+  transform: scale(2);
+  margin: 0;
+}
+.title .spacer {
+  height: 40px; /* Ajustează înălțimea spațiului goale */
+}
+.line {
+  border: none;
+  border-top: 2px solid black;
+  width: 66.6667%;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.scroll-layout {
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.scroll-layout h2 {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.scroll-layout p {
+  color: white;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.images-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center; /* Aliniază imaginile în centru pe orizontală */
+}
+.scroll-layout h2 {
+  font-size: 24px;
+}
+.scroll-layout p {
+  font-size: 24px;
+}
+.images-container img {
+  width: 300px; /* Ajustează dimensiunea imaginilor la standardele dorite */
+  height: 200px; /* Menține proporțiile originale ale imaginilor */
+  margin-right: 10px;
 }
