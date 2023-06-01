@@ -9,9 +9,9 @@ function Page2(){
             </div>
             <div className="paginaServiciu">
                 <div className="slideShow">
-                    <img src={require('../../images/frizerie1.jpg')} alt="Description of the image"></img>
-                    <img src={require('../../images/frizerie1.jpg')} alt="Description of the image"></img>
-                    <img src={require('../../images/frizerie1.jpg')} alt="Description of the image"></img>
+                    <img src={require('../../images/frizerie1.jpg')} alt="Frizerie"></img>
+                    <img src={require('../../images/frizerie1.jpg')} alt="Frizerie"></img>
+                    <img src={require('../../images/frizerie1.jpg')} alt="Frizerie"></img>
                 </div>
                 <div className="info">
                     <div className="companyName">Nume companiei:</div>
